@@ -1,13 +1,16 @@
-import Vue form "vue";
+import Vue from "vue";
 import App from "./App.vue";
-import router from "./router";
+import router from "./router/index.js";
 
-Vue.config.productionTip =false;
+console.log(router);
+
+Vue.config.productionTip = false;
 
 new Vue({
-    el:"#app",
-    router,
-    components:{App},
-    template:"<App><App/>"
+	el: "#app",
+	router,
+	components: {
+		App
+	},
+	template: "<App/>"
 });
-
