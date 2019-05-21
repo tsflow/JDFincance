@@ -14,5 +14,13 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../css/reset.scss"
+    @import "../../css/reset.scss";
+    
+    p{
+    	font-weight:bold;
+    }
+    .home{
+    	color:red;
+    	font-size:180px
+    }
 </style>
